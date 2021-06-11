@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <author>Daniel Medina</author>
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>596</width>
+    <height>618</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Concreplacas SA</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(185, 222, 255);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>80</y>
+     <width>341</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 20pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>CONCREPLACAS   S.A.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>200</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 18pt &quot;Cambria&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Nombre:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>410</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 18pt &quot;Cambria&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Volumen:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>350</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 18pt &quot;Cambria&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Ancho:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>300</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 18pt &quot;Cambria&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Longitud:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>250</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 18pt &quot;Cambria&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Identificación:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>460</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 18pt &quot;Cambria&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Total a pagar:</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEditNombre">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>200</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="placeholderText">
+    <string>Nombre y apellidos</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEditId">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>250</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="placeholderText">
+    <string>C.c</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEditAncho">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>350</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEditLongitud">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>300</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelVolumen">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>410</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Arial&quot;;
+alternate-background-color: rgb(0, 0, 0);
+gridline-color: rgb(0, 0, 0);
+border-top-color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>410</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Arial&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>mts³</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>350</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Arial&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>mts</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>300</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Arial&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>mts</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonCalcular">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>530</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Calcular</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonGuardar">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>530</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>530</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>530</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Borrar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>460</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Arial&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>$</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>40</y>
+     <width>201</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/prefijoNuevo/placas.jpeg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEditTotal">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>460</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+font: 87 14pt &quot;Arial Black&quot;;</string>
+   </property>
+  </widget>
+  <zorder>label_13</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>textEditNombre</zorder>
+  <zorder>textEditId</zorder>
+  <zorder>textEditAncho</zorder>
+  <zorder>textEditLongitud</zorder>
+  <zorder>labelVolumen</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_11</zorder>
+  <zorder>label_12</zorder>
+  <zorder>pushButtonCalcular</zorder>
+  <zorder>pushButtonGuardar</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>label_8</zorder>
+  <zorder>textEditTotal</zorder>
+ </widget>
+ <tabstops>
+  <tabstop>textEditNombre</tabstop>
+  <tabstop>textEditId</tabstop>
+  <tabstop>textEditLongitud</tabstop>
+  <tabstop>textEditAncho</tabstop>
+  <tabstop>pushButtonCalcular</tabstop>
+  <tabstop>pushButtonGuardar</tabstop>
+  <tabstop>pushButton_4</tabstop>
+  <tabstop>pushButton_3</tabstop>
+ </tabstops>
+ <resources>
+  <include location="imagen.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>textEditNombre</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>403</x>
+     <y>559</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>405</x>
+     <y>218</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>textEditId</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>378</x>
+     <y>542</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>387</x>
+     <y>270</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>textEditLongitud</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>367</x>
+     <y>551</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>310</x>
+     <y>321</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>textEditAncho</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>347</x>
+     <y>550</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>316</x>
+     <y>363</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>labelVolumen</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>352</x>
+     <y>553</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>306</x>
+     <y>414</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>494</x>
+     <y>543</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>581</x>
+     <y>507</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>textEditTotal</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>363</x>
+     <y>561</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>373</x>
+     <y>470</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

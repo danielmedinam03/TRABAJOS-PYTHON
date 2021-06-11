@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="prefijoNuevo">
+    <file>placas.jpeg</file>
+  </qresource>
+</RCC>
